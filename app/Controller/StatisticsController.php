@@ -4,7 +4,7 @@ class StatisticsController extends AppController {
 	public $uses = array('UtmDatum');
 	public $components = array('Paginator');
 
-	public function utm() {
+	public function utm_list() {
 		$this->Paginator->settings = array(
 			'fields' => array('source'),
 			'group' => array('UtmDatum.source'),
