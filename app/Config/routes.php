@@ -31,6 +31,12 @@
  */
 	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
 
+	# statistics
+	Router::connect(
+		'/statistics/utm/list',
+		array('controller' => 'statistics', 'action' => 'utm_list')
+	);
+
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
@@ -42,3 +48,5 @@
  * the built-in default routes.
  */
 	require CAKE . 'Config' . DS . 'routes.php';
+
+

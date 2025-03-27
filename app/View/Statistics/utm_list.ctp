@@ -16,3 +16,7 @@
 		<?php endforeach; ?>
 	<?php endforeach; ?>
 <?php endforeach; ?>
+
+<?= $this->Paginator->prev('« Previous') ?>
+<?= $this->Paginator->numbers() ?>
+<?= $this->Paginator->next('Next »') ?>
