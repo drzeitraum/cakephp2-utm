@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 27 2025 г., 20:55
+-- Время создания: Мар 27 2025 г., 21:20
 -- Версия сервера: 10.5.11-MariaDB
 -- Версия PHP: 8.1.1
 
@@ -41,8 +41,8 @@ CREATE TABLE `utm_data` (
 --
 
 INSERT INTO `utm_data` (`id`, `source`, `medium`, `campaign`, `content`, `term`) VALUES
-(1, 'source1', 'cpc', 'camp1', 'banner1', 'term1'),
-(2, 'source2', 'cpc', 'camp2', 'banner2', 'term2'),
+(1, 'google', 'cpc', 'summer', 'banner', 'video'),
+(2, 'google', 'cpc', 'winter', 'delta', NULL),
 (3, 'source3', 'cpc', 'camp3', 'banner3', 'term3'),
 (4, 'source4', 'cpc', 'camp4', 'banner4', 'term4'),
 (5, 'source5', 'cpc', 'camp5', 'banner5', 'term5'),
